@@ -1,0 +1,34 @@
+Lista de nombre de organizaciones
+
+Next Meraki Org
+MuthanaAPITest
+DevNetAssoc
+dev 
+trung
+TNF - The Network Factory
+SVR
+Jacks_test_net
+DevNet Test Org
+helloworld
+Wotan
+DevNet Sandbox
+Cisco Live US 2019
+Forest City - Other
+Ftreqah organization
+test5
+Your Organization
+Personal.Lekhnath
+organization with name changed
+PM_Test
+My organization
+My organization
+DevNet Test Org
+The Org
+gk
+thienbao
+changetest
+Testlab
+Sample Org
+sample_network
+My organization
+DeLab
