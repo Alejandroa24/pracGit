@@ -3,8 +3,10 @@ from unicodedata import name
 import meraki
 import requests
 dashboard = meraki.DashboardAPI(API_KEY)
+r=requests.get("https://developer.cisco.com/meraki/")
 response = dashboard.organizations.getOrganizations() #lista detallada de organizaciones
 print(response)
+print(r.raise_for_status)
 
 listica=[]
 file= open("listaOrg.txt", "w")
@@ -30,14 +32,6 @@ for k in inventario:
         ipPublica=k["networkId"]
         numSerial=k["serial"]
         statusDisp=k["configurationUpdatedAt"]
-        
-        print("\n\nTipo del producto : ",tipoProducto)
-        print("Nombre del equipo: ",nombreEquipo)
-        print("Modelo: ", modeloEquipo)
-        print("Mac: ", mac)
-        print("Ip publica: ", ipPublica)
-        print("Serial: " ,numSerial)
-        print("Status del dispositivo: " ,statusDisp+"\n")
         
         dispositivos.write("\n")
         dispositivos.write("Tipo del producto : ")
