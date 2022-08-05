@@ -18,6 +18,7 @@ Ftreqah organization
 test5
 Your Organization
 Personal.Lekhnath
+DeLab
 organization with name changed
 PM_Test
 My organization
@@ -31,4 +32,3 @@ Testlab
 Sample Org
 sample_network
 My organization
-DeLab
