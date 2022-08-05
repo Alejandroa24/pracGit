@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  practicacompose:
+    build: ./
+    command: python docker.py
+    
